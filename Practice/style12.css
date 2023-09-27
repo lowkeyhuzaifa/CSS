@@ -1,0 +1,31 @@
+
+#container{
+    position: relative;
+    left:200px;
+    height: 70px;
+    width: 50%;
+    border: 2px solid rgba(8, 138, 83, 0.671);
+    border-radius: 10px;
+    background-image: url(hong-kong-urban-night-shop-signs-neon-lights-buildings-wallpaper-1024x768-wallpaper.jpg);
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 50px;
+    width: 120px;
+    font-size: 24px;
+    margin-left: 20px;
+    background-color: black;
+    border-color: black;
+    color: rgba(105, 32, 148, 0.993);
+    line-height: 50px;
+    border-radius: 15px;
+    font-family: papyrus;
+    transition: box-shadow 1s  ease-in-out 0.5s;
+}
+.box:hover {
+    box-shadow: 2px 3px 10px black;
+}

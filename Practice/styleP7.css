@@ -1,0 +1,46 @@
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: chartreuse;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: circletext 2s linear 0.2s infinite normal;
+}
+@keyframes circletext {
+    0% {
+        transform : rotate(0deg);
+        background-color: chartreuse;
+        color: black;
+    }
+    100%{
+        transform : rotate(360deg) ;
+        background-color: black;
+        color: white;
+        }
+    }
+.media{
+    height: 70px;
+    width: 100%;
+    background-color: cadetblue;
+    border: 2px solid black;
+    display: flex;
+    align-items: start;
+    font-size: small;
+}
+@media(min-width :300px) and (max-width: 700px) {
+.media{
+    background-color: blue;
+}
+}
+@media(orientation:landscape){
+    .media{
+        background-color: black;
+        color: white;
+
+    }
+}
+        
+

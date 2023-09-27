@@ -1,0 +1,65 @@
+.post a{
+    color: aquamarine;
+}
+#prefo a{
+    color: black;
+
+}
+nav ul li a {
+    background-color: grey;
+}
+p+h3 {
+    text-decoration: underline;
+    color: darkcyan;
+}
+input[type="text"]{
+    color: blueviolet;
+    background-color: darkorange;
+}
+input[type="password"]{
+    color: aquamarine; 
+}
+input[type]{
+    color: firebrick;
+}
+button:hover{
+    background-color: red;
+    color: green;
+}
+h3:hover{
+    text-decoration: none;
+    background-color: chocolate;
+    color: blue;
+}
+button:active{
+    background-color: yellowgreen;
+    color: fuchsia;
+}
+.post:active{
+    background-color: goldenrod ;
+    text-decoration: wavy underline;
+}
+input[type="radio"]:checked + label{
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: aquamarine;
+}
+div:nth-of-type(){
+    background-color: darkkhaki;
+    color: azure;
+
+}
+h1::first-letter{
+    color: bisque;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: line-through;
+}
+p::first-line{
+    color: cornflowerblue;
+    text-shadow: 20cm;
+}
+p::selection{
+    background-color: chartreuse;
+}

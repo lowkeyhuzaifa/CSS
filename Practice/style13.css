@@ -1,0 +1,33 @@
+#anchor{
+    text-decoration: none;
+    color: rgb(194, 94, 58);
+    font-style: italic;
+}
+span{
+    color: rgb(150, 101, 42);
+}
+.pet{
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding:10px;
+    margin: 10px;
+}
+img{
+    
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+#owner{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+@media (max-width:375px) {
+    #owner{
+        flex-wrap: wrap ;
+
+    }
+}
